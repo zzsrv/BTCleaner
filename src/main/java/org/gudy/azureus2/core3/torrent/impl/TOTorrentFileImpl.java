@@ -46,7 +46,7 @@ public class TOTorrentFileImpl implements TOTorrentFile
 
 			file_length = _len;
 
-			Vector<byte[]> temp = new Vector<>();
+			Vector<byte[]> temp = new Vector<byte[]>();
 
 			int pos = 0;
 

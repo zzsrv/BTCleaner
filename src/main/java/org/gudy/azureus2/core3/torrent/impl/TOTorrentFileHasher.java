@@ -20,7 +20,7 @@ public class TOTorrentFileHasher
 
 	protected int piece_length;
 
-	protected Vector<byte[]> pieces = new Vector<>();
+	protected Vector<byte[]> pieces = new Vector<byte[]>();
 
 	protected byte[] buffer;
 

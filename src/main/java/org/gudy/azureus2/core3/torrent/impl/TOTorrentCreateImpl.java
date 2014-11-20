@@ -53,7 +53,7 @@ public class TOTorrentCreateImpl extends TOTorrentImpl implements TOTorrentFileH
 
 	protected int reported_progress;
 
-	protected Map<String, String> ignore_map = new HashMap<>();
+	protected Map<String, String> ignore_map = new HashMap<String, String>();
 
 
 
@@ -129,7 +129,7 @@ public class TOTorrentCreateImpl extends TOTorrentImpl implements TOTorrentFileH
 		} else
 		{
 
-			Vector<TOTorrentFileImpl> encoded = new Vector<>();
+			Vector<TOTorrentFileImpl> encoded = new Vector<TOTorrentFileImpl>();
 
 			processDir(hasher, _torrent_base, encoded, "");
 
@@ -167,7 +167,7 @@ public class TOTorrentCreateImpl extends TOTorrentImpl implements TOTorrentFileH
 		// sort contents so that multiple encodes of a dir always
 		// generate same torrent
 
-		List<File> file_list = new ArrayList<>(Arrays.asList(dir_file_list));
+		List<File> file_list = new ArrayList<File>(Arrays.asList(dir_file_list));
 
 		Collections.sort(file_list);
 
