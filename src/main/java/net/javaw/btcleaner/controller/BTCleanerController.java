@@ -27,33 +27,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 /**
  * 
- * 类名称：BTCleanerController.java
- * <P/>
- * 类描述： BT种子清洁控制器
- * <P/>
- * 创建时间：2014年8月7日
- * <P/>
- * 创建人： 史守阳
- * <P/>
- * 联系方式： ssy.vip^qq.com
- * <P/>
- * 修改人：无
- * <P/>
- * 修改时间：无
- * <P/>
- * 修改备注：无
- * <P/>
- * 版本：v1.0
+ * BTCleanerController
  * 
- * 
- * SpringMVC中的文件上传
- * 
- * @see 第一步：由于SpringMVC使用的是commons-fileupload实现，故将其组件引入项目中
- * @see 这里用到的是commons-fileupload-xxx.jar和commons-io-xxx.jar
- * @see 第二步：在####-servlet.xml中配置MultipartResolver处理器。可在此加入对上传文件的属性限制
- * @see 第三步：在Controller的方法中添加MultipartFile参数。该参数用于接收表单中file组件的内容
- * @see 第四步：编写前台表单。注意enctype="multipart/form-data"以及<input type="file" name="****"/>
- * 
+ * @author Helios
+ * @date 2014年11月20日 下午5:19:05
  * 
  */
 @Controller
