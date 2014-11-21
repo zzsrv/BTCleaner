@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+%@ page language="java" import="java.util.*" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%
 	String path = request.getContextPath();
@@ -55,7 +55,7 @@
 
 				<dd>
 
-					<a href="#" target="_top">请联系作者</a>
+					<a href="https://github.com/Helios4J/BTCleaner" target="_blank">请联系作者</a>
 
 				</dd>
 
