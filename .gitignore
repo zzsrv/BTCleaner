@@ -8,7 +8,8 @@
 /bin/
 /target/
 /.settings/
+/.idea/
 /.classpath
-/.gitignore
+/.iml
 /.myumldata
 /.project
