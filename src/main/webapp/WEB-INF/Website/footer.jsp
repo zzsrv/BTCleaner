@@ -13,7 +13,7 @@
 	<div class="wrapper">
 
 		<div class="footer-nav">
-			<a href="http://www.javaw.net" target="_top">首页</a><i></i> <a href="http://blog.javaw.net" target="_blank">博客</a><i></i> <a href="http://btcleaner.javaw.net" target="_top">种子清洁</a><i></i> <a href="http://httpproxy.javaw.net" target="_top">HTTP代理</a><i></i> <a href="http://www.javaw.net/about.html" target="_top">关于作者</a>
+			<a href="http://www.javaw.net" target="_top">首页</a><i></i> <a href="http://blog.javaw.net" target="_blank">博客</a><i></i> <a href="http://btcleaner.javaw.net" target="_top">种子清洁</a><i></i> <a href="http://www.javaw.net/about.html" target="_top">关于作者</a>
 		</div>
 
 		<div class="clearfix"></div>
