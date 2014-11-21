@@ -10,10 +10,11 @@ package net.javaw.btcleaner.controller;
 import java.io.File;
 import java.util.Locale;
 
+import net.javaw.torrent.TOTorrent;
+import net.javaw.torrent.TOTorrentFactory;
+import net.javaw.util.Constants;
+
 import org.apache.commons.io.FileUtils;
-import org.gudy.azureus2.core3.torrent.TOTorrent;
-import org.gudy.azureus2.core3.torrent.TOTorrentFactory;
-import org.gudy.azureus2.core3.util.Constants;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
