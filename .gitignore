@@ -4,12 +4,12 @@
 *.jar
 *.war
 *.ear
+*.iml
 
 /bin/
 /target/
 /.settings/
 /.idea/
 /.classpath
-/.iml
 /.myumldata
 /.project
